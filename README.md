@@ -1,9 +1,7 @@
 Context:
-    * Variable Object 
-    
-    * Scope Chain 
-    
-    * this 
+- Variable Object 
+- Scope Chain
+- this 
     
 
 Function declarations are scanned and made available 
