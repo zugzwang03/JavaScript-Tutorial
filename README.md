@@ -1,7 +1,11 @@
 Context:
-    * Variable Object \n
-    * Scope Chain \n
-    * this \n
+    * Variable Object 
+    
+    * Scope Chain 
+    
+    * this 
+    
 
-Function declarations are scanned and made available \n
+Function declarations are scanned and made available 
+
 Variable declarations are scanned and made undefined
