@@ -14,7 +14,3 @@ console.log(users.slice(2));
 // starting point, count
 users.splice(2, 3, 'user', 'user00')
 console.log(users);
-
-
-
-
