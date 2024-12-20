@@ -9,3 +9,5 @@ Context:
 Function declarations are scanned and made available 
 
 Variable declarations are scanned and made undefined
+
+For all regular function calls, this points to window object
