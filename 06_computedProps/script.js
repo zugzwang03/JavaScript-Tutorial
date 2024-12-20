@@ -12,4 +12,21 @@ const getBGColor = (selectedElement) => {
     return window.getComputedStyle(selectedElement).backgroundColor;
 }
 
-console.log(getBGColor(black));
+// console.log(getBGColor(black));
+
+var color = getBGColor(blue);
+blue.addEventListener('mouseenter', () => {
+    center.style.background = color;
+})
+
+const magicColorChanger = (element, color) => {
+    return element.addEventListener('mouseenter', () => {
+        center.style.background = color;
+    })
+}
+
+magicColorChanger(red, getBGColor(red));
+magicColorChanger(yellow, getBGColor(yellow));
+magicColorChanger(green, getBGColor(green));
+magicColorChanger(blue, getBGColor(blue));
+magicColorChanger(black, getBGColor(black));
