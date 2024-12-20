@@ -7,7 +7,15 @@ var User = function (firstName, courseCount) {
     };
 };
 
+User.prototype.getFirstName = function() {
+    console.log(`Your first name is ${this.firstName}`);
+}
+
 var shreya = new User('shreya', 3);
-console.log(shreya);
+shreya.getCourseCount();
+shreya.getFirstName();
+// console.log(shreya);
 var riya = new User('riya', 4);
-console.log(riya);
+riya.getCourseCount();
+riya.getFirstName();
+// console.log(riya);
