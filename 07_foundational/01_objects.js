@@ -7,13 +7,15 @@ var User = function (firstName, courseCount) {
     };
 };
 
-User.prototype.getFirstName = function() {
+User.prototype.getFirstName = function () {
     console.log(`Your first name is ${this.firstName}`);
 }
 
 var shreya = new User('shreya', 3);
 shreya.getCourseCount();
-shreya.getFirstName();
+if (shreya.hasOwnProperty('firstName')) {
+    shreya.getFirstName();
+}
 // console.log(shreya);
 var riya = new User('riya', 4);
 riya.getCourseCount();
