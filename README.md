@@ -18,3 +18,5 @@ Scope is a big issue in JS
 JS considers fn as scope
 let is block scoped
 var is function scoped
+
+Getters help you get attributes in your class that are private
