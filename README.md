@@ -20,3 +20,5 @@ let is block scoped
 var is function scoped
 
 Getters help you get attributes in your class that are private
+
+JavaScript is both functional and procedural, as well as object-oriented. The choice of paradigm depends on how you decide to use it in your application.
