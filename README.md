@@ -25,3 +25,5 @@ JavaScript is both functional and procedural, as well as object-oriented. The ch
 
 JS is a weakly typed language
 JS is dynamically typed language
+
+The Decorator Design Pattern is a structural pattern used to dynamically add behavior or responsibilities to an object at runtime without modifying its code.

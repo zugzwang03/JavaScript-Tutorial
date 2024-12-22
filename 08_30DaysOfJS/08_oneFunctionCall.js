@@ -9,4 +9,3 @@ function printName(greeting, greeting2) {
 printName('Hello'); // undefined
 
 printName.apply(person, ['Hello', 'sis']);
-
